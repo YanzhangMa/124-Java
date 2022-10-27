@@ -1,0 +1,28 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="400.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1">
+   <children>
+      <Label layoutX="103.0" layoutY="32.0" prefHeight="34.0" prefWidth="183.0" text="PizzaOrder" AnchorPane.bottomAnchor="334.0" AnchorPane.leftAnchor="103.0" AnchorPane.rightAnchor="114.0" AnchorPane.topAnchor="32.0" />
+      <ChoiceBox layoutX="169.0" layoutY="80.0" prefWidth="150.0" />
+      <ChoiceBox layoutX="168.0" layoutY="132.0" prefWidth="150.0" />
+      <ChoiceBox layoutX="169.0" layoutY="179.0" prefWidth="150.0" />
+      <Label layoutX="84.0" layoutY="136.0" text="Cheese" />
+      <Label layoutX="82.0" layoutY="183.0" text="Pineapple" />
+      <Label layoutX="85.0" layoutY="231.0" text="Ham" />
+      <ChoiceBox layoutX="168.0" layoutY="229.0" prefWidth="150.0" />
+      <Label layoutX="87.0" layoutY="84.0" text="Size" />
+      <Label layoutX="83.0" layoutY="318.0" text="Price:" />
+      <Label layoutX="80.0" layoutY="277.0" text="Your pizza:" />
+      <TextField layoutX="170.0" layoutY="273.0" />
+      <TextField layoutX="170.0" layoutY="314.0" />
+      <CheckBox layoutX="164.0" layoutY="360.0" mnemonicParsing="false" text="Order Complete" />
+   </children>
+</AnchorPane>
